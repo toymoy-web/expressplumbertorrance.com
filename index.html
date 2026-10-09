@@ -39,10 +39,48 @@
     "latitude": 33.8358,
     "longitude": -118.3406
   },
-  "areaServed": {
-    "@type": "City",
-    "name": "Torrance, CA"
-  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Torrance, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Redondo Beach, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Manhattan Beach, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Lawndale, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Gardena, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Harbor City, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Lomita, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Rolling Hills Estates, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Palos Verdes Estates, CA"
+    },
+    {
+      "@type": "City",
+      "name": "Rancho Palos Verdes, CA"
+    }
+  ],
   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
     "dayOfWeek": [
@@ -60,6 +98,68 @@
   "priceRange": "$$"
 }</script>
 
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do you offer 24/7 emergency plumbing in Torrance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Our emergency line runs 24 hours a day, seven days a week, including nights, weekends, and holidays, for burst pipes, sewer backups, and no-hot-water calls."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why does my water heater seem to fail faster here than it did inland?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Southern California's hard water leaves mineral scale inside tank and tankless units, and coastal humidity accelerates corrosion on exposed fittings. Both shorten a water heater's working life in Torrance compared to a drier inland city."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you find a slab leak without tearing up my floor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually, yes. We use electronic and acoustic leak detection to pinpoint a slab leak's location before any concrete is opened, which keeps the repair as targeted as possible."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you charge extra for emergency or after-hours calls?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Call for current rates. You will always get a clear price before any work begins, whether it is a daytime appointment or a middle-of-the-night emergency."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What counts as a plumbing emergency?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Water you cannot stop, sewage coming up in the house, no water at all, a flooded water heater, or the smell of gas all qualify. Our guide on what counts as a plumbing emergency goes through the signs in more detail."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can someone come tonight or on a weekend?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our emergency line is open around the clock, and a live dispatcher answers at any hour, including weekends. Call and the dispatcher tells you what is available for your address."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I do until the plumber arrives?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Close the main shutoff, switch off power to wet areas, and move people and valuables away from the water. Keep the phone nearby so the dispatcher can talk you through the next step."
+      }
+    }
+  ]
+}</script>
 </head>
 <body>
 
@@ -91,10 +191,14 @@
         <a href="/service-area/" aria-haspopup="true">Areas &#9662;</a>
         <ul class="dropdown" role="list">
           <li><a href="/redondo-beach/">Redondo Beach</a></li>
-          <li><a href="/lomita/">Lomita</a></li>
-          <li><a href="/harbor-city/">Harbor City</a></li>
+          <li><a href="/manhattan-beach/">Manhattan Beach</a></li>
+          <li><a href="/lawndale/">Lawndale</a></li>
           <li><a href="/gardena/">Gardena</a></li>
-          <li><a href="/carson/">Carson</a></li>
+          <li><a href="/harbor-city/">Harbor City</a></li>
+          <li><a href="/lomita/">Lomita</a></li>
+          <li><a href="/rolling-hills-estates/">Rolling Hills Estates</a></li>
+          <li><a href="/palos-verdes-estates/">Palos Verdes Estates</a></li>
+          <li><a href="/rancho-palos-verdes/">Rancho Palos Verdes</a></li>
           <li><a href="/service-area/">Full Service Area</a></li>
         </ul>
       </li>
@@ -124,14 +228,16 @@
       <span>Licensed California plumbers</span>
     </div>
   </div>
-  <div class="herocall">
-    <div class="lbl">Torrance emergency line</div>
-    <div class="num">(310) 424-7510</div>
-    <a class="btn" href="tel:+13104247510">&#9742; Call now</a>
+  <div class="herophoto">
+    <img src="/img/photos/homepage-hero.jpg" alt="Licensed plumber working on residential plumbing in Torrance, CA" width="1600" height="900" fetchpriority="high">
+    <div class="herocall">
+      <div class="lbl">Torrance emergency line</div>
+      <div class="num">(310) 424-7510</div>
+      <a class="btn" href="tel:+13104247510">&#9742; Call now</a>
+    </div>
   </div>
 </div></section>
 
-<div class="wrap"><div class="photo-banner" style="margin-top:-8px"><img src="/img/photos/homepage-hero.jpg" alt="Licensed plumber working on residential plumbing in Torrance, CA" width="1600" height="900" loading="lazy"></div></div>
 
 <section class="sec"><div class="wrap">
   <div class="kick">Services</div>
@@ -181,12 +287,26 @@
 </div></section>
 
 <section class="sec"><div class="wrap">
+  <div class="kick">Neighborhoods and landmarks</div>
+  <h2>Plumbing across every part of Torrance</h2>
+  <p style="max-width:720px;color:var(--gray);margin-bottom:24px">Torrance was planned in 1912 as a balanced city with its own residential, commercial, and industrial districts, and those districts still look different today. Here is how we think about the main ones, using the boundaries and landmarks locals actually use.</p>
+  <div class="cards">
+    <div class="card"><h3>Old Torrance</h3><p>Planned in 1912 by the Olmsted firm, with Gramercy and Andreo avenues as its first residential streets, where many houses have passed their hundredth birthday. Craftsman homes are common here, and the Pacific Electric railroad bridge nearby is on the National Register of Historic Places. Houses of this age are the ones where repiping and sewer lateral questions are worth asking early.</p><a href="/service-area/#old-torrance">Service area details &rarr;</a></div>
+    <div class="card"><h3>Central Torrance and Del Amo</h3><p>The Del Amo Fashion Center, one of the ten largest malls in the country by leasable area, anchors the commercial core, with offices and retail along 190th Street from Hawthorne Boulevard to Western Avenue. Madrona Marsh, one of the last vernal marshes in Southern California, lies just east of the mall. Commercial plumbing, backflow testing, and storm-season <a href='/sump-pump-installation-repair/'>sump pump repair</a> are the typical calls.</p><a href="/service-area/#central-torrance">Service area details &rarr;</a></div>
+    <div class="card"><h3>West Torrance and Southwood</h3><p>West of Hawthorne Boulevard, West Torrance runs from 190th Street to Torrance Boulevard and Southwood continues from there to Sepulveda Boulevard. These are mid-century tract neighborhoods, and typical calls include water heater replacement, slab leak detection, and repiping.</p><a href="/service-area/#west-torrance">Service area details &rarr;</a></div>
+    <div class="card"><h3>Hollywood Riviera</h3><p>On the northern edge of the Palos Verdes Peninsula, south of Pacific Coast Highway, and known for its oceanfront estates. It uses a Redondo Beach ZIP code, 90277, but it is part of Torrance. Salt air makes exposed fittings and hose bibs a regular inspection item.</p><a href="/service-area/#hollywood-riviera">Service area details &rarr;</a></div>
+    <div class="card"><h3>Walteria</h3><p>A south Torrance neighborhood annexed in 1928, with its own post office on Pacific Coast Highway and a branch library. Older homes and coastal air make leak detection and repiping the usual conversations.</p><a href="/service-area/#walteria">Service area details &rarr;</a></div>
+    <div class="card"><h3>North and Southeast Torrance</h3><p>North Torrance, around Crenshaw Boulevard, has its own post office and library branch and sits near the refinery at the city's north end. Southeast Torrance is home to Zamperini Field, the city's general aviation airport. Both are covered by our standard dispatch.</p><a href="/service-area/#north-torrance">Service area details &rarr;</a></div>
+  </div>
+</div></section>
+
+<section class="sec alt"><div class="wrap">
   <div class="kick">Coverage</div>
   <h2>Serving Torrance and the South Bay</h2>
   <p style="max-width:640px;color:var(--gray);margin-bottom:24px">Torrance Express Plumbing dispatches technicians throughout Torrance, CA and into the surrounding South Bay communities, with 24/7 emergency response available across the coverage area.</p>
   <div class="areas">
-    <a href="/service-area/">Old Torrance</a><a href="/service-area/">Walteria</a><a href="/service-area/">North Torrance</a><a href="/service-area/">Hollywood Riviera</a>
-    <a href="/redondo-beach/">Redondo Beach</a><a href="/lomita/">Lomita</a><a href="/harbor-city/">Harbor City</a><a href="/gardena/">Gardena</a><a href="/carson/">Carson</a><a href="/service-area/">View full service area</a>
+    <a href="/service-area/#old-torrance">Old Torrance</a><a href="/service-area/#walteria">Walteria</a><a href="/service-area/#north-torrance">North Torrance</a><a href="/service-area/#hollywood-riviera">Hollywood Riviera</a>
+    <a href="/redondo-beach/">Redondo Beach</a><a href="/manhattan-beach/">Manhattan Beach</a><a href="/lawndale/">Lawndale</a><a href="/gardena/">Gardena</a><a href="/harbor-city/">Harbor City</a><a href="/lomita/">Lomita</a><a href="/rolling-hills-estates/">Rolling Hills Estates</a><a href="/palos-verdes-estates/">Palos Verdes Estates</a><a href="/rancho-palos-verdes/">Rancho Palos Verdes</a><a href="/service-area/">View full service area</a>
   </div>
   <div class="photo-banner"><img src="/img/photos/homepage-local.jpg" alt="South Bay California residential neighborhood street" width="1600" height="900" loading="lazy"></div>
   <div class="mapwrap">
@@ -202,6 +322,9 @@
     <div><b>Why does my water heater seem to fail faster here than it did inland?</b><p>Southern California's hard water leaves mineral scale inside tank and tankless units, and coastal humidity accelerates corrosion on exposed fittings. Both shorten a water heater's working life in Torrance compared to a drier inland city.</p></div>
     <div><b>Can you find a slab leak without tearing up my floor?</b><p>Usually, yes. We use electronic and acoustic leak detection to pinpoint a slab leak's location before any concrete is opened, which keeps the repair as targeted as possible.</p></div>
     <div><b>Do you charge extra for emergency or after-hours calls?</b><p>Call for current rates. You will always get a clear price before any work begins, whether it is a daytime appointment or a middle-of-the-night emergency.</p></div>
+    <div><b>What counts as a plumbing emergency?</b><p>Water you cannot stop, sewage coming up in the house, no water at all, a flooded water heater, or the smell of gas all qualify. Our guide on <a href="/blog/what-counts-as-a-plumbing-emergency/">what counts as a plumbing emergency</a> goes through the signs in more detail.</p></div>
+    <div><b>Can someone come tonight or on a weekend?</b><p>Our emergency line is open around the clock, and a live dispatcher answers at any hour, including weekends. Call and the dispatcher tells you what is available for your address.</p></div>
+    <div><b>What should I do until the plumber arrives?</b><p>Close the main shutoff, switch off power to wet areas, and move people and valuables away from the water. Keep the phone nearby so the dispatcher can talk you through the next step.</p></div>
   </div>
 </div></section>
 
@@ -219,6 +342,7 @@
   <div>
     <img src="/img/logo.png" alt="Torrance Express Plumbing" width="180" height="63" style="height:40px;width:auto;margin-bottom:12px">
     <p>Licensed plumbing repair, installation, and emergency service for Torrance, CA and the surrounding South Bay.</p>
+    <p style="margin-top:10px;font-size:13px">Serving Torrance, <a href="/redondo-beach/" style="display:inline;margin:0">Redondo Beach</a>, <a href="/manhattan-beach/" style="display:inline;margin:0">Manhattan Beach</a>, <a href="/lawndale/" style="display:inline;margin:0">Lawndale</a>, <a href="/gardena/" style="display:inline;margin:0">Gardena</a>, <a href="/harbor-city/" style="display:inline;margin:0">Harbor City</a>, <a href="/lomita/" style="display:inline;margin:0">Lomita</a>, <a href="/rolling-hills-estates/" style="display:inline;margin:0">Rolling Hills Estates</a>, <a href="/palos-verdes-estates/" style="display:inline;margin:0">Palos Verdes Estates</a>, <a href="/rancho-palos-verdes/" style="display:inline;margin:0">Rancho Palos Verdes</a>.</p>
   </div>
   <div>
     <h4>Services</h4>
