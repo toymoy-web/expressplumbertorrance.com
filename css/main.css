@@ -189,3 +189,4 @@ footer a:hover{color:var(--green)}
 .social a:hover{background:var(--green);color:#fff}
 .footer-bottom.wrap{display:block}
 .footer-bottom a{display:inline;margin:0}
+.sign h3{font-size:16px;margin:0 0 5px;color:var(--green-d)}
